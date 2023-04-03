@@ -74,3 +74,19 @@ button:hover {
     background: #f88a30;
     color: #ffffff;
 }
+
+@media screen and (max-width: 325px) {
+    input {
+        width: 216px;
+        padding: 12px;
+        margin: 5px;
+        font-size: 28px;
+    }
+
+    button {
+        width: 40px;
+        height: 40px;
+        margin: 7px;
+        font-size: 15px;
+    }
+}
